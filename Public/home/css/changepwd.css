@@ -1,0 +1,141 @@
+*{margin: 0px;padding: 0px}
+#logo{
+	width: 960px;height:31px;
+	padding: 50px 0px;
+	margin: 0 auto;
+}
+#change{
+	width: 901px;height: 422px;
+	border: 1px solid #e6e6e6;
+	margin: 0 auto;
+	border-bottom: none;
+}
+.reset-title{
+	padding: 35px 30px;
+	border-bottom: 1px dashed #e6e6e6;
+}
+.reset-title a{
+	color: #333333;
+	text-decoration: none;
+	font-weight: 700;
+}
+.reset-title span{
+	color: #ff6709;
+}
+.logout{
+	float: right;
+	font-size: 13px;
+}
+.pwd-info{
+	padding: 60px 50px;
+}
+.pwd-title{
+	margin-left: 155px;
+	color: #666;
+	font-size: 14px;
+}
+.move-list{
+	margin-top: 12px;
+	float: left;
+}
+.move-list li{
+	width: 130px;height: 38px;
+	text-align: right;
+	list-style: none;
+	color: #666;
+	font-size: 14px;
+	margin-top: 29px;
+}
+.move-list li:nth-of-type(1){
+	margin-top: 0px;
+}
+.pwd-list{
+	width: 330px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.pwd-list li{
+	list-style: none;
+	margin-top: 30px;
+}
+.pwd-list li:nth-of-type(1){
+	margin-top: 0px;
+}
+.pwd-list li input{
+	width: 308px;height: 38px;
+	text-indent: 0.5em;
+}
+.notice-list{
+	float: left;height: 100px;
+	position: relative;
+}
+.notice{
+	/*display: none;*/
+	width: 295px;
+	font-size: 13px;
+	color: #999;
+	position: absolute;
+	top: 90px;
+}
+.confirm{
+	display: none;
+	width: 295px;
+	font-size: 13px;
+	color: red;
+	position: absolute;
+	top: 90px;
+}
+.confirm-again{
+	display: none;
+	width: 295px;
+	font-size: 13px;
+	color: red;
+	position: absolute;
+	top: 160px;
+}
+.makesure{
+	width: 500px;
+	float: left;
+	margin-top: 20px;
+	padding-left: 150px;
+}
+.makesure input{
+	width: 150px;height: 38px;
+	background: #ff6709;
+	border: 1px solid white;
+	color: white;
+	cursor: pointer;
+}
+
+.bottom{
+	width: 903px;
+	margin: 0 auto;
+}
+/*底部*/
+.lan{
+	margin-top: 50px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.lan a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #999;
+	padding: 0px 5px;
+}
+.lan a:hover{
+	color: gray;
+	font-size: 13px;
+	font-weight: 700;
+}
+.sep{
+	color: #666;
+	font-size: 11px; 
+}
+.law{
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+}
+

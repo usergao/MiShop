@@ -1,0 +1,124 @@
+*{margin: 0px;padding: 0px}
+#logo{
+	width: 960px;height:31px;
+	padding: 50px 0px;
+	margin: 0 auto;
+}
+#reg{
+	width: 960px;
+	border: 1px solid #e6e6e6;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+.reg-title{
+	width: 890px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #666;
+	padding: 34px 0px;
+	margin: 0 auto;
+}
+.container{
+	width: 	890px;height: 359px;
+	border-top: 1px solid #e6e6e6;
+	margin: 0 auto;
+}
+.reg-box{
+	width: 332px;height: 359px;
+	margin: 30px auto;
+}
+.phonenumber{
+	width: 310px;height: 17px;
+	display: block;
+	padding: 12px 10px;
+	border:1px solid #e8e8e8;
+	border-radius: 5px;
+}
+.password{
+	width: 310px;height: 17px;
+	display: block;
+	padding: 12px 10px;
+	border:1px solid #e8e8e8;
+	border-radius: 5px;
+	margin-top: 17px;
+}
+.notice{
+	color: #FF6700;
+	font-size: 12px;
+	margin-top: 10px;
+	display: none;
+}
+.notice-empty{
+	color: #FF6700;
+	font-size: 12px;
+	margin-top: 10px;
+	display: none;
+}
+
+
+
+.code{
+	width: 170px;height: 20px;
+	padding: 10px;
+	display: block;
+	border:1px solid #e8e8e8;
+	border-radius: 5px;
+	margin-top: 20px;
+	float: left;
+}
+.codeimg{
+	width: 125px; height:42px;
+	float: right;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.sub{
+	width: 332px;height: 44px;
+	background: #ff7a4d; 
+	border: 1px solid #ff7a4d;
+	cursor: pointer;
+	color: #FFF;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 30px;
+}
+.sub:hover{
+	opacity: 0.8;
+}
+.agreement{
+	font-size: 12px;
+	color: #999;
+	margin-top: 20px;
+}
+.agreement a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #333;
+}
+.lan{
+	margin-top: 50px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.lan a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #999;
+	padding: 0px 5px;
+}
+.lan a:hover{
+	color: gray;
+	font-size: 13px;
+	font-weight: 700;
+}
+.sep{
+	color: #666;
+	font-size: 11px; 
+}
+.law{
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+}
+

@@ -1,0 +1,427 @@
+*{margin: 0px;padding: 0px}
+/*top部分*/
+#top{
+	width: 100%;height: 102px;
+	border-bottom: 2px solid #ff6700;
+}
+.top-content{
+	width: 1226px;height: 50px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.logo{
+	float: left;
+}
+.logo img{
+	width: 48px;height: 48px;
+}
+.title{
+	float: left;
+	font-size: 28px;
+	color: #424242;
+	margin-top: 8px;
+	margin-left: 60px;
+}
+.userinfo{
+	float: right;
+	line-height: 48px;
+	margin-right: 30px;
+}
+.userinfo a{
+	color: #757575;
+}
+.userinfo a:hover{
+	text-decoration: none;
+	color: #ff6700;
+}
+.userinfo .user{
+	color: #757575;
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	font-size: 13px;
+}
+.userinfo .user span{
+	font-size: 11px;;
+}
+.userinfo .user:hover .user-detail{
+	display: block;	
+}
+.user-detail{
+	position: absolute;
+	list-style: none;
+	width: 120px;
+	left: -30px;
+	text-align: center;
+	z-index: 20;
+	display: none;
+	background: white;
+	box-shadow: 0px 0px 10px 2px #ccc;
+}
+.user-detail li{
+	height: 30px;
+	line-height: 32px;
+}
+.user-detail li:hover{
+	background: #f5f5f5;
+}
+.user-order{
+	float: right;
+	margin-left: 10px;
+	font-size: 13px;
+}
+/*top部分结束*/
+/*购物车开始*/
+#shopcar{
+	background: #f5f5f5;
+	padding: 37px 0;
+}
+.content{
+	width: 1226px;
+	margin: 0 auto;
+	background: white;
+	padding-bottom: 30px;
+}
+.content-title{
+	height: 70px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.good-name{
+	width: 350px;height: 70px;
+	float: left;
+	text-align: left;
+	line-height: 70px;
+	margin-left: 150px;
+}
+.comments{
+	width: 150px;height: 70px;
+	float: left;
+	text-align: center;
+	line-height: 70px;
+}
+.shuliang{
+	width: 150px;height: 70px;
+	float: left;
+	text-align: right;
+	line-height: 70px;
+	text-align: center;
+}
+.little-count{
+	width: 168px;height: 70px;
+	float: left;
+	text-align: center;
+	line-height: 70px;
+}
+.movement{
+	width: 163px;height: 70px;
+	float: left;
+	line-height: 70px;
+	text-align: center;
+}
+.good-info{
+	height: 149px;
+}
+
+.good-image{
+	float: left;
+	margin-left: 20px;
+}
+.good-image img{
+	width: 80px;height: 80px;
+	margin-top: 35px;
+	margin-left: 20px;
+}
+.info-name{
+	width: 355px;height: 85px;
+	margin-top: 30px;
+	margin-left: 30px;
+	float: left;
+	padding-top: 20px;
+}
+.info-name a{
+	font-size: 18px;
+	color: #424242;
+}
+.info-name a:hover{
+	color: #424242;
+	text-decoration: none;
+}
+.info-name p{
+	font-size: 12px;
+	color: #757575;
+}
+.info-single-price{
+	width: 129px;height: 85px;
+	line-height: 85px;
+	margin-top: 30px;
+	float: left;
+	font-size: 16px;
+	text-align: center;
+}
+.raise-num{
+	width: 150px;height: 85px;
+	margin-top: 55px;
+	float: left;
+	margin-left: 20px;
+}
+.phone-num{
+	width: 62px;height: 38px;
+	border: none;
+	border-bottom: 1px solid #e0e0e0;
+	border-top: 1px solid #e0e0e0;
+	text-align: center;
+	float: left;
+	margin-top: 1px;
+}
+.changeblock{
+	width: 38px;height: 38px;
+	border: 1px solid #e0e0e0;
+	text-align: center;
+	padding-top: 10px;
+	cursor: pointer;
+	transition: 0.3s;
+	display: inline-block;
+	float: left;
+	color: #757575;
+}
+.changeblock:hover{
+	background: #e0e0e0;
+}
+.total-price{
+	width: 170px;height: 85px;
+	text-align: center;
+	line-height: 85px;
+	float: left;
+	color: #ff6700;
+	margin-top: 30px;
+	font-size: 18px;
+}
+.remove{
+	width: 80px;height: 85px;
+	color: #757575;
+	float: left;
+	margin-left: 66px;
+}
+.remove span{
+	margin-top: 62px;
+	border-radius: 50%;
+	background: white;
+	padding: 4px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.remove span:hover{
+	border-radius: 50%;
+	background: #e53935;
+	padding: 4px;
+	color: white;
+}
+.good-total{
+	width: 1226px;height: 50px;
+	margin: 20px auto;
+	background: white;
+	line-height: 50px;
+}
+.back-to-shop{
+	padding: 0 35px;
+}
+.back-to-shop a{
+	color: #757575;
+	transition: 0.3s;
+	float: left;
+}
+.back-to-shop a:hover{
+	color: #ff6700;
+	text-decoration: none;
+}
+.useless{
+	width: 35px;height: 16px;
+	text-align: center;
+	float: left;
+	color: #eeeeee;
+}
+.good-count{
+	color: #757575;
+	float: left;
+}
+.good-num{
+	color: #ff6700;
+	padding: 0 3px;
+}
+.gonext{
+	float: right;
+	width: 202px;height: 50px;
+	background: #f25807;
+	text-align: center;
+}
+.gonext a{
+	width: 202px;height: 50px;
+	background: #f25807;
+	display:block;
+	/*border: 1px solid white;*/
+	color: white;
+}
+.gonext a:hover{
+	color: white;
+	text-decoration: none;
+}
+.good-price{
+	color: #f25807;
+	float: right;
+	margin-right: 50px;
+}
+.price{
+	font-size: 30px;
+}
+#emptyshopcar{
+	background: #f5f5f5;
+	padding: 100px 0;
+}
+.emptycontent{
+	width: 1226px;height: 300px;
+	margin: 0 auto;
+
+}
+.empty-image{
+	width: 551px;height: 275px;
+	float: left;
+}
+.empty-image img{
+	float: right;
+	margin-right: 50px;
+}
+.empty-title{
+	float: left;
+}
+.empty-title h1{
+	color: #b0b0b0;
+	font-weight: 700;
+	margin-top: 90px;
+}
+.goshop{
+	text-align: center;
+	width: 172px;height: 50px;
+	background: #ff6700;
+	line-height: 50px;
+	margin-top: 30px;
+}
+.goshop a{
+	width: 172px;height: 50px;
+	display: block;
+	color: white;
+}
+.goshop a:hover{
+	color: white;
+	text-decoration: none;
+}
+/*购物车结束*/
+/*底部开始*/
+#bottom{
+	width: 1226px;height: 272px;
+	margin: 0 auto;
+}
+.sep{
+	font-size: 11px;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: #B0B0B0;
+}
+.service{
+	width: 1226px;height: 80px;
+	margin-top: 20px;
+	border-bottom: 1px solid #e0e0e0;
+	float: left;
+}
+.service ul li{
+	width: 244px;
+	list-style: none;
+	float: left;
+	margin-top: 20px;
+	border-right: 1px solid #e0e0e0;
+}
+.service ul li a{
+	text-align: center;
+	padding-left: 70px;
+	text-decoration: none;
+	color: #616161;
+}
+.service ul li a:hover{
+	color: #ff6700;
+}
+.aboutus{
+	width: 890px;height: 182px;
+	float: left;
+}
+.infomations{
+	width: 165px;height: 112px;
+	float: left;
+	list-style: none;
+	margin-top: 28px;
+}
+.infomations span{
+	color: #424242;
+	font-size: 15px;
+}
+.details{
+	margin-top: 20px;
+}
+.details li{
+	list-style: none;
+	font-size: 12px;
+	color: #757575;
+	margin-top: 10px;
+}
+.contactus{
+	width: 243px;height: 112px;
+	float: right;
+	text-align: center;
+	margin-top: 30px;
+	border-left: 1px solid #757575;
+}
+.number{
+	color: #ff6700;
+	font-size: 22px;
+}
+.time{
+	color: #424242;
+	font-size: 12px;
+}
+.cost{
+	color: #424242;
+	font-size: 12px;
+}
+.last{
+	width: 1226px;height: 30px;
+	margin: 0 auto;
+}
+.zong{
+	float: left;
+}
+.somethingelse{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.somethingelse a{
+	text-decoration: none;
+	color: #757575;
+	font-size: 12px;
+}
+.lawonline{
+	font-size: 12px;
+	color: #B0B0B0;
+	margin-left: 30px;
+}
+.last-right{
+	height:30px;
+	float: right;
+	margin-top: 20px;
+}
+.last-right li{
+	width: 85px;height: 28px;
+	float: left;
+	list-style: none;
+	margin-right: 10px;
+}
+/*底部结束*/

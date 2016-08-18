@@ -1,0 +1,77 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>小米账号 - 注册</title>
+	<link rel="stylesheet" href="/Mi/Public/home/css/register.css" />
+	<script src="/Mi/Public/home/js/jquery.js"></script>
+	<script>
+//		输入号码时的提示
+		$(function() {
+			$('.phonenumber').blur(function() {
+				val=$('.phonenumber').val();
+				if(val==''){
+					$('.notice-empty').css({display:'block'});
+					$('.notice').css({display:'none'});
+				}else{
+					firstval=val.slice(0,1);
+					vallength=val.length;
+					if(firstval==1&&vallength==11){
+						$('.notice').css({display:'none'});
+						$('.notice-empty').css({display:'none'});
+					}else{
+						$('.notice').css({display:'block'});
+						$('.notice-empty').css({display:'none'});
+					}
+				}
+			})
+		})
+	</script>
+</head>
+<body>
+	<!-- logo -->
+	<div id="logo">
+		<a href="<?php echo U('Index/index');?>"><img src="/Mi/Public/home/image/n-logo.png" alt="" /></a>
+	</div>
+	<!-- logo -->
+	<!-- 注册部分 -->
+	<div id="reg">
+		<div class="reg-title">
+			注册小米账号
+		</div>
+		<div class="container">
+			<div class="reg-box">
+				<form action="<?php echo U('Login/register');?>" method="post">
+					<input type="text" name="telephone" class="phonenumber" placeholder="请输入手机号码"/>
+					<div class="notice">
+						手机号码格式错误
+					</div>
+					<div class="notice-empty">
+						手机号码不能为空
+					</div>
+					<input type="password" name="password" class="password" placeholder="请输入密码"/>
+					<input type="text" name="code" class="code" placeholder="图片验证码"/>
+					<img src="<?php echo U('codeMake');?>" alt="" class="codeimg"/>
+					 <!-- onclick="this.src='index.php/Home/Login/codeMake'+Math.random()" -->
+					<input type="submit" value="立即注册" class="sub"/>
+				</form>
+				<div class="agreement">
+					点击“立即注册”，即表示您同意并愿意遵守小米 <a href="">用户协议</a> 和 <a href="">隐私政策</a> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="lan">
+		<a href="" style="font-weight:bold;">简体</a>
+		<span class="sep"> | </span>
+		<a href="">繁体</a>
+		<span class="sep"> | </span>
+		<a href="">English</a>
+		<span class="sep"> | </span>
+		<a href="">常见问题</a>
+	</div>
+	<div class="law">
+		小米公司版权所有-京ICP备10046444-京公网安备1101080212535-京ICP证110507号
+	</div>
+</body>
+</html>
