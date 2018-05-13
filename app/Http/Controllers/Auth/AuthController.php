@@ -16,6 +16,10 @@ class AuthController extends Controller
     {
         $oauthUser = \Socialite::with('weixin')->user();
 
+        $oauthUser = json_encode($oauthUser);
+
+        $oauthUser = json_decode($oauthUser, true);
+
         dd($oauthUser);
     }
 }
