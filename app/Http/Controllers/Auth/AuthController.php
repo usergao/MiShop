@@ -20,6 +20,6 @@ class AuthController extends Controller
 
         $oauthUser = json_decode($oauthUser, true);
 
-        dd($oauthUser);
+        // dd($oauthUser);
     }
 }
