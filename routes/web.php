@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/auth/oauth', 'Auth\AuthController@oauth');
+Route::get('/mobile/oauth', 'Auth\AuthController@mobileOauth');
 
-Route::get('/auth/callback', 'Auth\AuthController@callback');
+Route::get('/mobile/callback', 'Auth\AuthController@mobileCallback');
+
+Route::get('/web/oauth', 'Auth\AuthController@webOauth');
+
+Route::get('/web/callback', 'Auth\AuthController@webCallback');
