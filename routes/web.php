@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/auth/oauth', 'Auth\AuthController@oauth');
+
+Route::get('/auth/callback', 'Auth\AuthController@callback');
