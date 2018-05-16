@@ -22,7 +22,7 @@ class AuthController extends Controller
 
         $oauthUser = json_decode($oauthUser, true);
 
-        dd($oauthUser);
+        // dd($oauthUser);
     }
 
 
@@ -47,6 +47,6 @@ class AuthController extends Controller
     public function silenceOauth(Request $request)
     {
         return \Socialite::driver('weixin')->setScopes(['snsapi_base'])->redirect();
-        
+
     }
 }
