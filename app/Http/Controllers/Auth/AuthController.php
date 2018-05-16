@@ -9,7 +9,7 @@ class AuthController extends Controller
 {
     public function mobileOauth(Request $request)
     {
-        return \Socialite::with('weixin')->setScopes(['snsapi_base'])->redirect();
+        return \Socialite::with('weixin')->redirect();
     }
 
     public function mobileCallback(Request $request)
