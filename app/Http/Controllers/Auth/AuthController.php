@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 
 class AuthController extends Controller
 {
+
+    // 手机微信登录
     public function mobileOauth(Request $request)
     {
         return \Socialite::with('weixin')->redirect();
@@ -23,6 +25,8 @@ class AuthController extends Controller
         dd($oauthUser);
     }
 
+
+    // 网页微信登录
     public function webOauth(Request $request)
     {
         return \Socialite::with('weixinweb')->redirect();
@@ -37,5 +41,11 @@ class AuthController extends Controller
         $oauthUser = json_decode($oauthUser, true);
 
         dd($oauthUser);
+    }
+
+
+    public function silenceOauth(Request $request)
+    {
+        return Socialite::driver('weixin')->setScopes(['snsapi_base'])->redirect();
     }
 }
