@@ -47,7 +47,7 @@ class AuthController extends Controller
     public function silenceOauth(Request $request)
     {
         return \Socialite::driver('weixin')
-        ->scopes(['snsapi_base'])
+        ->setScopes(['snsapi_base'])
         ->redirect();
     }
 }
