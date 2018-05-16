@@ -38,4 +38,20 @@ class AuthController extends Controller
 
         dd($oauthUser);
     }
+
+    public function passData(Request $request)
+    {
+        $data = 'hello';
+
+        return redirect()->route('/printdata', ['data' => $data]);
+    }
+
+    public function printData(Request $request)
+    {
+        $right = ' world';
+
+        $left = $request->get('data');
+
+        echo $left.$right;
+    }
 }

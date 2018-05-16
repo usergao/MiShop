@@ -22,3 +22,6 @@ Route::get('/mobile/callback', 'Auth\AuthController@mobileCallback');
 Route::get('/web/oauth', 'Auth\AuthController@webOauth');
 
 Route::get('/web/callback', 'Auth\AuthController@webCallback');
+
+Route::get('passdata', 'Auth\AuthController@passData');
+Route::get('printdata', 'Auth\AuthController@printData');
