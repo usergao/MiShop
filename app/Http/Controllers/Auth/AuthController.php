@@ -46,6 +46,6 @@ class AuthController extends Controller
     // 静默授权登录
     public function silenceOauth(Request $request)
     {
-        return \Socialite::driver('weixin')->setScopes(['snsapi_base'])->with(['hd' => 'example.com'])->redirect();
+        return \Socialite::driver('weixin')->setScopes(['snsapi_base'])->redirect();
     }
 }
