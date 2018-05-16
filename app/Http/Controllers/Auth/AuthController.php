@@ -11,7 +11,7 @@ class AuthController extends Controller
     // 手机微信登录
     public function mobileOauth(Request $request)
     {
-        return \Socialite::with('weixin')->setScopes(['snsapi_base'])->redirect();
+        return \Socialite::with('weixin')->redirect();
     }
 
     public function mobileCallback(Request $request)
