@@ -23,4 +23,9 @@ Route::get('/web/oauth', 'Auth\AuthController@webOauth');
 
 Route::get('/web/callback', 'Auth\AuthController@webCallback');
 
+<<<<<<< HEAD
 Route::get('/mobile/silence', 'Auth\AuthController@silenceOauth');
+=======
+Route::get('passdata', 'Auth\AuthController@passData');
+Route::get('printdata', 'Auth\AuthController@printData');
+>>>>>>> bace464cb4cd02fe2c4401f48a93a67a88a375c0
