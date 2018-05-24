@@ -42,10 +42,4 @@ class AuthController extends Controller
 
         dd($oauthUser);
     }
-
-    // 静默授权登录
-    public function silenceOauth(Request $request)
-    {
-        return \Socialite::with('weixin')->redirect();
-    }
 }
